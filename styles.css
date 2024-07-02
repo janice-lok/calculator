@@ -1,0 +1,40 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#calculator {
+    background-color: rgb(31, 39, 31);
+    width: 30vw;
+    height: 90vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#display {
+    background-color: rgb(118, 149, 118);
+    width: 90%;
+    height: 25%;
+}
+
+#left-side {
+    width: 55%;
+    height: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#right-side {
+    width: 30%;
+    height: 60%;
+}
+
+button {
+    width: 70px;
+    height: 70px;
+}
